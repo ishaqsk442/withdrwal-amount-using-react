@@ -1,0 +1,75 @@
+/* Write your CSS here */
+
+.main {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #150b3e;
+  border-radius: 10px;
+  /* height: 250px;
+  width: 200px; */
+  width: 30%;
+}
+
+.balance {
+  color: #c7d2fe;
+  font-size: 20px;
+}
+
+.profile-cont {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.name-circle {
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+.name {
+  margin-left: 10px;
+  color: #d4d2db;
+  font-size: 20px;
+}
+
+.balance-cont {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttons-cont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.rupees {
+  color: #585076;
+}
+
+.final-amount {
+  color: #c4c4c4;
+  font-size: 26px;
+}
+.choose {
+  color: #d4d2db;
+  font-size: medium;
+  font-weight: 300;
+}
